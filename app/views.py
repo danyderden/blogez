@@ -2,7 +2,7 @@ from django.shortcuts import get_object_or_404, render, redirect
 from django.views import generic
 
 from app.forms import CommentForm
-from app.models import Post, Comments, Tag
+from app.models import Post, Comment, Tag
 
 
 # Create your views here.
@@ -34,13 +34,13 @@ def add_comment_to_post(request, slug):
 
 
 def comment_approve(request, slug):
-    comment = get_object_or_404(Comments, slug=slug)
+    comment = get_object_or_404(Comment, slug=slug)
     comment.approve()
     return redirect('post_detail', slug=comment.post.slug)
 
 
 def comment_remove(request, slug):
-    comment = get_object_or_404(Comments, slug=slug)
+    comment = get_object_or_404(Comment, slug=slug)
     comment.delete()
     return redirect('post_detail', slug=comment.post.slug)
 

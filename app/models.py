@@ -47,7 +47,7 @@ class Tag(models.Model):
         return self.title
 
 
-class Comments(models.Model):
+class Comment(models.Model):
     text = models.TextField(max_length=140)
     post = models.ForeignKey(
         'Post', on_delete=models.CASCADE, related_name='comments'
