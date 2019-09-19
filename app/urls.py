@@ -1,7 +1,9 @@
 from . import views
-from django.urls import path
+from django.urls import path, include
 
 urlpatterns = [
+    path('accounts/', include('django.contrib.auth.urls')),
+    path('registration/', views.register, name='registration'),
     path('', views.PostList.as_view(), name='home'),
     path('<slug:slug>/', views.PostDetail.as_view(), name='post_detail'),
     path('post/<str:slug>/comment/', views.add_comment_to_post,
