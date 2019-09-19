@@ -1,5 +1,6 @@
 from django.shortcuts import get_object_or_404, render, redirect
 from django.views import generic
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 from app.forms import CommentForm, UserForm
 from app.models import Post, Comment, Tag
