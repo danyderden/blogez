@@ -1,6 +1,7 @@
+from django.db.models import Q
 from django.shortcuts import get_object_or_404, render, redirect
 from django.views import generic
-from django.contrib.auth.mixins import LoginRequiredMixin
+from django.views.generic import TemplateView, ListView
 
 from app.forms import CommentForm, UserForm
 from app.models import Post, Comment, Tag
@@ -67,3 +68,20 @@ def register(request):
     return render(request, 'registration/registration.html',
                   {'user_form': user_form,
                    'registered': registered})
+
+
+class SearchList(ListView):
+    model = Post
+    template_name = 'search_results.html'
+
+
+class SearchResultsView(ListView):
+    model = Post
+    template_name = 'search_results.html'
+
+    def get_queryset(self):
+        query = self.request.GET.get('q')
+        object_list = Post.objects.filter(
+            Q(tittle__icontains=query) | Q(description__icontains=query)
+        )
+        return object_list
