@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edf76b7d-b4c8-4167-98e7-3e151b5ea0ef" name="Default Changelist" comment="" />
+    <list default="true" id="edf76b7d-b4c8-4167-98e7-3e151b5ea0ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog_news_new.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog_news_new.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +132,24 @@
       <workItem from="1568737364234" duration="9213000" />
       <workItem from="1568909989755" duration="7927000" />
       <workItem from="1569009835806" duration="540000" />
-      <workItem from="1569048522102" duration="5385000" />
+      <workItem from="1569048522102" duration="8069000" />
+      <workItem from="1569475674625" duration="393000" />
+      <workItem from="1569476085389" duration="1313000" />
+      <workItem from="1569485866168" duration="10000" />
+      <workItem from="1569510051103" duration="119000" />
+      <workItem from="1569510191074" duration="644000" />
+      <workItem from="1569521783871" duration="870000" />
+      <workItem from="1569622900543" duration="641000" />
+      <workItem from="1569651858773" duration="3624000" />
+      <workItem from="1569660507878" duration="1538000" />
+      <workItem from="1569851097758" duration="11000" />
+      <workItem from="1569946739028" duration="235000" />
+      <workItem from="1569952440842" duration="493000" />
+      <workItem from="1569989994306" duration="917000" />
+      <workItem from="1570118104855" duration="2097000" />
+      <workItem from="1570551207861" duration="361000" />
+      <workItem from="1570658946294" duration="407000" />
+      <workItem from="1570732304541" duration="1566000" />
     </task>
     <task id="LOCAL-00001" summary="upd">
       <created>1568759199399</created>
@@ -184,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569054285699</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixes">
+      <created>1569054370764</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569054370764</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

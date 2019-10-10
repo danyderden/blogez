@@ -1,7 +1,7 @@
 from django.db.models import Q
 from django.shortcuts import get_object_or_404, render, redirect
 from django.views import generic
-from django.views.generic import TemplateView, ListView
+from django.views.generic import ListView
 
 from app.forms import CommentForm, UserForm
 from app.models import Post, Comment, Tag
@@ -81,7 +81,10 @@ class SearchResultsView(ListView):
 
     def get_queryset(self):
         query = self.request.GET.get('q')
-        object_list = Post.objects.filter(
-            Q(tittle__icontains=query) | Q(description__icontains=query)
-        )
+        if query != '':
+            object_list = Post.objects.filter(Q(tittle__icontains=query) |
+                                              Q(description__icontains=query))
+        else:
+            object_list = None
+
         return object_list
