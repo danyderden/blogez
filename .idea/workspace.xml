@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edf76b7d-b4c8-4167-98e7-3e151b5ea0ef" name="Default Changelist" comment="fixes">
-      <change beforePath="$PROJECT_DIR$/.idea/blog_news_new.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog_news_new.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/migrations/0002_comments.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/migrations/0003_auto_20190917_1741.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/migrations/0004_auto_20190917_2217.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +133,7 @@
       <workItem from="1570743922690" duration="1011000" />
       <workItem from="1570775945424" duration="317000" />
       <workItem from="1583801796846" duration="3769000" />
+      <workItem from="1583806140944" duration="284000" />
     </task>
     <task id="LOCAL-00001" summary="upd">
       <created>1568759199399</created>
@@ -239,10 +229,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1583802944680" />
-    <state x="302" y="50" key="CommitChangelistDialog2" timestamp="1583805789363">
+    <state x="302" y="50" key="CommitChangelistDialog2" timestamp="1583806724250">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="302" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583805789363" />
+    <state x="302" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583806724250" />
     <state x="75" y="75" key="SettingsEditor" timestamp="1583801859970">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
