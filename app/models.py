@@ -19,7 +19,7 @@ class Post(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     created_on = models.DateTimeField(auto_now_add=True)
     updated_on = models.DateTimeField(auto_now_add=True)
-    # photo = models.ImageField(upload_to='pic')
+    # photo = models.ImageField(upload_to='pic/')
     status = models.IntegerField(choices=STATUS, default=0)
     tags = models.ManyToManyField('Tag', blank=True, related_name='posts')
 
